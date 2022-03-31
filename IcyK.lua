@@ -1,5 +1,4 @@
--- This kid is a scammer, scammed me smh.
-
+--[[
 getgenv().Settings = {
     Host = {"HostName","HostName2"},
     Prefix = ".",
@@ -10,7 +9,7 @@ getgenv().Alts = {
     Alt2 = "Alt2",
     Alt2 = "Alt3",
 }
-
+--]]
 -- This is not deobfuscated, it was minified then beautified to prevent kids skidding ;))
 
 if not game:IsLoaded() then
