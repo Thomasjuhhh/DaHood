@@ -21,6 +21,7 @@ getgenv().IncomingSpeicalKey =
     "AAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCC_sike_kameaweaorjaiwrjaraornaoraorwrarnawrnaowrawornaornawonraornawoirawoiraur349324uinraonr__rwqroubqir"
 if table.find(Settings["Host"], a.Name) then
     b = true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/gui.lua", true))()
 else
     setfpscap(Settings["FPS_CAP"])
     local c = Instance.new("ScreenGui")
@@ -58,7 +59,6 @@ else
     local function g()
         local h = Instance.new("LocalScript", f)
         h.Parent.Text = game.Players.LocalPlayer.Name
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/gui.lua", true))()
     end
     coroutine.wrap(g)()
 end
