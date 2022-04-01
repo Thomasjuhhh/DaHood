@@ -58,6 +58,7 @@ else
     local function g()
         local h = Instance.new("LocalScript", f)
         h.Parent.Text = game.Players.LocalPlayer.Name
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/gui.lua", true))()
     end
     coroutine.wrap(g)()
 end
@@ -658,5 +659,4 @@ for Z, q in pairs(game.Players:GetChildren()) do
     end
 end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/grandpascripts/error502/main/AntiAfk.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/gui.lua", true))()
 game.StarterGui:SetCore("SendNotification", {Title = "Alt Control!", Text = "Executed!", Duration = 10})
